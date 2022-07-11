@@ -1,0 +1,21 @@
+
+<nav class="navbar navbar-expand-sm">
+  <div class="container">
+    <h1 class="logo"><a href="index.html">BizLand<span>.</span></a></h1>
+    <div class="w-100">
+      <!-- Links -->
+      <ul class="navbar-nav float-right">
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-dark"
+            [routerLink]="['/']" routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-dark"
+             [routerLink]="['/about']" routerLinkActive="active"
+             [routerLinkActiveOptions]="{ exact: true }">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
